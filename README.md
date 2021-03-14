@@ -76,10 +76,10 @@ done in this solution:
 
 In my solution I will use:
 
--   \`forkIO\` for running processes in parallel
--   \`STM \` for properly handling shared state (atomical transactions)
--   lenses for handling nested data structures
--   \`list\` as a container for list of customers waiting and list of
+-   `forkIO` for running processes in parallel
+-   `STM ` for properly handling shared state (atomical transactions)
+-   `lenses` for handling nested data structures
+-   `list` as a container for list of customers waiting and list of
     generated customers as well (for performance reason it is better to
     use another container type, but this model doesn\'t care much about
     performance)
