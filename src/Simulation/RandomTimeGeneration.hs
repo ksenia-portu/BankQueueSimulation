@@ -3,7 +3,7 @@ module Simulation.RandomTimeGeneration where
 import Control.Monad (replicateM)
 import qualified System.Random.MWC as MWC
 import qualified System.Random.MWC.Distributions as MWC
-import Types ( Time, CustomerType(..) )
+import Simulation.Types ( Time, CustomerType(..) )
 
 -- We know cumulative distribution function (CDF) is F(t) = 1 - e ^ ( -t / a)   a = 100
 -- Probability density function (PDF) is f (t) = (1/a) * e ^ ( -t / a)

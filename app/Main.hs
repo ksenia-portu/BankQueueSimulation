@@ -3,7 +3,7 @@ module Main where
 import Data.List (sortOn)
 import Log (logInfo)
 import Simulation.Model (runSimulation)
-import Types
+import Simulation.Types
   ( CustomerType (Blue, Red, Yellow),
     Result (..)
   )

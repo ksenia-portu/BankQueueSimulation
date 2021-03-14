@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 466fbfabf1cae461111db871c0955aada73d216e725ec687019f4f2ee881dd73
+-- hash: 604807ad957ef17bcd2dfb597d588feeca5e6f7ef8fa6b80020d2684dc8781ff
 
 name:           BankQueueSimulation
 version:        0.1.0.0
@@ -30,7 +30,7 @@ library
       Log
       Simulation.Model
       Simulation.RandomTimeGeneration
-      Types
+      Simulation.Types
   other-modules:
       Paths_BankQueueSimulation
   hs-source-dirs:

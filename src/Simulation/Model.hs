@@ -18,7 +18,7 @@ import Simulation.RandomTimeGeneration
   ( generateCustomerProcessingTime,
     generateInterArrivalTime,
   )
-import Types
+import Simulation.Types
     ( Customer(Customer, processingTime, arrivalTime),
       Time,
       Result(..),

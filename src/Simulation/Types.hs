@@ -1,6 +1,6 @@
 {-# LANGUAGE TemplateHaskell #-}
 
-module Types where
+module Simulation.Types where
 
 import Lens.Micro ( (^.) )
 import Lens.Micro.TH ( makeLenses )
