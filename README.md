@@ -1,7 +1,7 @@
 About the project
 =================
 
-This project is solving small discrete-event simulation task. It is a
+This project is solving a small discrete-event simulation task. It is a
 sequential discrete-event model, with one channel, with infinite queue
 following FIFO algorithm and inter-arrival time is exponentially
 distributed and the service time is betta-distributed.
